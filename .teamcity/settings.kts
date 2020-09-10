@@ -1,4 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
+import jetbrains.buildServer.configs.kotlin.v2019_2.projectFeatures.bitbucketCloudConnection
+import jetbrains.buildServer.configs.kotlin.v2019_2.projectFeatures.githubConnection
 import jetbrains.buildServer.configs.kotlin.v2019_2.vcs.GitVcsRoot
 
 /*
@@ -30,6 +32,21 @@ project {
     vcsRoot(Sd)
 
     buildType(Sdf)
+
+    features {
+        bitbucketCloudConnection {
+            id = "PROJECT_EXT_4"
+            displayName = "Bitbucket Cloud"
+            key = "jj"
+            clientSecret = "credentialsJSON:1c1e7223-0d50-4182-9033-909a43b7cef0"
+        }
+        githubConnection {
+            id = "PROJECT_EXT_5"
+            displayName = "GitHub.com"
+            clientId = "df"
+            clientSecret = "credentialsJSON:4e74c6ab-2f05-4bcb-aa3b-f16fa068ade7"
+        }
+    }
 }
 
 object Sdf : BuildType({
@@ -38,6 +55,7 @@ object Sdf : BuildType({
     params {
         password("aa", "credentialsJSON:2c3603cc-eda1-4bec-8828-0a4f39acf5b7")
         password("sdf", "credentialsJSON:da9fde61-25dd-47e7-8532-b465191e70be")
+        password("dfdf", "credentialsJSON:4e74c6ab-2f05-4bcb-aa3b-f16fa068ade7")
     }
 
     vcs {
