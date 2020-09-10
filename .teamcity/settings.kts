@@ -37,6 +37,7 @@ object Sdf : BuildType({
 
     params {
         password("aa", "credentialsJSON:2c3603cc-eda1-4bec-8828-0a4f39acf5b7")
+        password("sdf", "credentialsJSON:da9fde61-25dd-47e7-8532-b465191e70be")
     }
 
     vcs {
