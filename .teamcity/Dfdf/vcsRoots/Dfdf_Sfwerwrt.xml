@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="0c127b9f-3aca-4fbe-8a8e-3b13ce45cbe5" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+  <name>sfwerwrt</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:674e22a8-b189-440a-9d26-6f9d9e35243d" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="wrwbddf" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="AChubatova" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+

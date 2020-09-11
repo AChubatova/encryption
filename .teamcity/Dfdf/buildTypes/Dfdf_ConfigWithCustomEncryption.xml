@@ -10,6 +10,7 @@
     <vcs-settings>
       <vcs-entry-ref root-id="Dfdf_Vcsrootcustom" />
       <vcs-entry-ref root-id="Dfdf_EncryptVcs" />
+      <vcs-entry-ref root-id="Dfdf_Sfwerwrt" />
     </vcs-settings>
     <requirements />
     <build-triggers />
