@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="52a4990a-8cf4-4ebd-890a-0e81b27aaace" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+  <name>vcsrootcustom</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:24696074-0d38-4465-8691-131da7873e7d" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="sdflksjdlfkj" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="Af" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
