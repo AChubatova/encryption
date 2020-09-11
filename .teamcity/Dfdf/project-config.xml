@@ -14,7 +14,7 @@
     </extension>
     <extension id="PROJECT_EXT_3" type="OAuthProvider">
       <parameters>
-        <param name="clientId" value="ssd" />
+        <param name="clientId" value="ssds" />
         <param name="defaultTokenScope" value="public_repo,repo,repo:status,write:repo_hook" />
         <param name="displayName" value="GitHub.com" />
         <param name="gitHubUrl" value="https://github.com/" />
