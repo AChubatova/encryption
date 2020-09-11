@@ -9,6 +9,7 @@
     <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Dfdf_Vcsrootcustom" />
+      <vcs-entry-ref root-id="Dfdf_EncryptVcs" />
     </vcs-settings>
     <requirements />
     <build-triggers />
