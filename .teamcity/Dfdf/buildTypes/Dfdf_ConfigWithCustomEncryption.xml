@@ -3,7 +3,9 @@
   <name>config with custom encryption</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="a" value="credentialsJSON:132ca608-a262-4c25-9b09-17139ba7457f" spec="password display='hidden' description='as' label='asa'" />
+    </parameters>
     <build-runners />
     <vcs-settings />
     <requirements />
